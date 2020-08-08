@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <Landing />
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
     </>
   );
 }

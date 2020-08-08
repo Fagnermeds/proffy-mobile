@@ -21,6 +21,38 @@ const styles = StyleSheet.create({
   titleBold: {
     fontFamily: 'Poppins_600SemiBold',
   },
+  buttonsContainer: {
+    marginTop: 40,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+  },
+  button: {
+    height: 150,
+    width: '48%',
+    backgroundColor: '#333',
+    padding: 24,
+    paddingBottom: 32,
+    justifyContent: 'space-between', 
+  },
+  buttonPrimary: {
+    backgroundColor: '#9871f5',
+  },
+  buttonSecondary: {
+    backgroundColor: '#04d361',
+  },
+  buttonText: {
+    fontFamily: 'Archivo_700Bold',
+    color: '#fff',
+    fontSize: 20,
+  },
+  totalConnections: {
+    fontFamily: 'Poppins_400Regular',
+    color: '#d4c2ff',
+    lineHeight: 20,
+    maxWidth: 180,
+    marginTop: 32,
+  }
 });
 
 export default styles;
